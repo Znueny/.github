@@ -14,7 +14,13 @@ Swiss bakery ordering platform. Employees scan QR codes at their workplace, orde
 | Bakery Dashboard | React, TypeScript, Vite |
 | Payment API | Node.js, TypeScript, Vercel |
 | Database | PostgreSQL + Row Level Security (Supabase) |
-| Payments | TWINT via Saferpay |
+| Auth | Supabase Auth (GoTrue) |
+| Payments | TWINT via Saferpay (Worldline) |
+| Error Tracking | Sentry |
+| CI/CD | GitHub Actions, Codemagic |
+| iOS Distribution | Codemagic, TestFlight |
+| Web Hosting | Vercel |
+| Testing | Vitest (1,000+ integration tests) |
 
 ## Links
 
